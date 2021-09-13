@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#03A9F4"
+    android:rotationX="0"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rotation="0"
+        android:rotationX="0"
+        android:text="Villanueva Guzman Andy"
+        tools:layout_editor_absoluteX="234dp"
+        tools:layout_editor_absoluteY="741dp" />
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="194dp"
+        android:text="Hello World! I'm Andy Villanueva Guzman and I'm a Mirrey"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="268dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
